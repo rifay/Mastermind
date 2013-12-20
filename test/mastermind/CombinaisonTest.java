@@ -78,5 +78,6 @@ public class CombinaisonTest extends TestCase {
       public void testPointToutFaux() {
         Combinaison combiSecrète = new Combinaison("abcd");
         assertEquals("----", combiSecrète.comparer("ffff"));
+        
      }
 }
